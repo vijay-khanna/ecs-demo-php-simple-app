@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Simple PHP App</h1>
                 <h2>Congratulations</h2>
-                <p>Your PHP application is now running on a container in Amazon ECS. Ver 11.11 - 24 Jun 2020.</p>
+                <p>Your PHP application is now running on a container in Amazon ECS. Ver 00-001- 30 July .</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
